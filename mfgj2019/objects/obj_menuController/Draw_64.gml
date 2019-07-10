@@ -44,31 +44,29 @@ if (ds_exists(currentMenuGrid, ds_type_grid))
 			_centerX + string_width(ds_grid_get(currentMenuGrid,optionsGridProperties.name,i))*.55,
 			_centerY - 6 - _optionsTop + i*_optionSeparation,
 			false);
-            draw_set_color(c_white);
+            draw_set_color(c_black);
 			draw_set_alpha(1);
 			draw_text(_centerX, _centerY - _optionsTop + i*_optionSeparation, _text);
         }
         else if (cursorLocation == i and _buttonType == buttonTypes.slider)
         {
-			draw_set_color(c_white);
+			draw_set_color(c_black);
 			draw_set_alpha(.5);
             draw_rectangle(_centerX - string_width(ds_grid_get(currentMenuGrid,optionsGridProperties.name,i))*.6,
 			_centerY + 3 - _optionsTop + i*_optionSeparation,
 			_centerX + string_width(ds_grid_get(currentMenuGrid,optionsGridProperties.name,i))*.55,
 			_centerY - 6 - _optionsTop + i*_optionSeparation,
 			false);
-            // SLIDERS OPTIONS SHOULD NEVER HIGHLIGHT, BUT THE TOGGLE SWITCHES ON EITHER SIDE SHOULD HIGHLIGHT YELLOW
-            var _halfStringWidth = string_width(_text)*.5;
-            draw_set_color(c_white);
+            draw_set_color(c_black);
             draw_text(_centerX, _centerY - _optionsTop + i*_optionSeparation, _text);
         }
         else
         {
             // DRAW NORMAL MENU OPTIONS IN WHITE WHEN NOT HIGHLIGHTED
-            draw_set_color(c_white);
+            draw_set_color(c_black);
             draw_text(_centerX, _centerY - _optionsTop + i*_optionSeparation, _text);
         }
         draw_set_halign(fa_center);
-        draw_set_color(c_white);
+        draw_set_color(c_black);
     }
 }

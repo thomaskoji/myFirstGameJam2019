@@ -28,6 +28,11 @@ global.inputControlPressed	= keyboard_check_pressed(controlKey);
 global.inputControlHeld		= keyboard_check(controlKey);
 global.inputControlReleased	= keyboard_check_released(controlKey);
 
+global.inputEnterPressed	= keyboard_check_pressed(enterKey);
+global.inputEnterHeld		= keyboard_check(enterKey);
+global.inputEnterReleased	= keyboard_check_released(enterKey);
+
+
 global.inputAttackPressed	= keyboard_check_pressed(EKey);
 global.inputAttackHeld		= keyboard_check(EKey);
 global.inputAttackReleased	= keyboard_check_released(EKey);

@@ -1,8 +1,8 @@
-if (global.downPressed)
+if (global.inputDownPressed)
 {
 	cursorLocation += 1;
 }
-else if (global.upPressed)
+else if (global.inputUpPressed)
 {
 	cursorLocation -= 1;
 }
@@ -21,7 +21,7 @@ var _buttonType = ds_grid_get(currentMenuGrid, optionsGridProperties.button_type
 
 if (_buttonType = buttonTypes.toggle)
 {
-	if (global.confirmPressed)
+	if (global.inputEnterPressed)
 	{
 		var _scriptToRun = ds_grid_get(currentMenuGrid, optionsGridProperties.script, cursorLocation);
 		var _argument = ds_grid_get(currentMenuGrid, optionsGridProperties.argument_to_pass, cursorLocation);
@@ -38,8 +38,8 @@ if (_buttonType = buttonTypes.toggle)
 else if (_buttonType = buttonTypes.slider)
 {
 	var _sliderMove = 0;
-	if (global.leftPressed) {_sliderMove = -1;}
-	else if (global.rightPressed) {_sliderMove = 1;}
+	if (global.inputLeftPressed) {_sliderMove = -1;}
+	else if (global.inputRightPressed) {_sliderMove = 1;}
 	
 	if (_sliderMove != 0)
 	{

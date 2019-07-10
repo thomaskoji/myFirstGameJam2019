@@ -7,7 +7,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "f283cea4-7060-4dac-967d-cffab1724ecc"
     ],
     "IsDnD": false,
     "layers": [
@@ -16,6 +16,32 @@
             "name": "Instances",
             "id": "acc86158-69b9-4df6-b995-5da2d3f1fa59",
             "depth": 0,
+            "grid_x": 2,
+            "grid_y": 2,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_27818812","id": "f283cea4-7060-4dac-967d-cffab1724ecc","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_27818812","objId": "9a772599-ca23-46b3-8e17-bc90e48d6272","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 24,"y": 36}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Walls",
+            "id": "ce247473-589f-4b31-9c0c-3abefb394116",
+            "depth": 100,
             "grid_x": 2,
             "grid_y": 2,
             "hierarchyFrozen": false,
@@ -43,8 +69,8 @@
             "id": "4a5f1427-171b-45b4-b962-f18c56ffc318",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4288273407 },
-            "depth": 100,
+            "colour": { "Value": 4294967295 },
+            "depth": 200,
             "grid_x": 2,
             "grid_y": 2,
             "hierarchyFrozen": false,
@@ -87,12 +113,12 @@
     },
     "roomSettings":     {
         "id": "71a21835-4da6-4586-bc4e-feab79d73ae9",
-        "Height": 500,
+        "Height": 100,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 500
+        "Width": 100
     },
     "mvc": "1.0",
     "views": [

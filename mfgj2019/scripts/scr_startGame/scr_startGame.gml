@@ -1,2 +1,1 @@
-room_goto(rm_gameRoom);
-global.gameHasNotStarted = false;
+room_goto(room_game);

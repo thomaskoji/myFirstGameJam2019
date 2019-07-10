@@ -7,6 +7,7 @@ rightKey	= ord("D");
 spaceKey	= vk_space;
 shiftKey	= vk_shift;
 controlKey	= vk_control;
+enterKey	= vk_enter;
 EKey		= ord("E");
 
 global.inputDirection		= no_direction;
@@ -38,6 +39,10 @@ global.inputShiftReleased	= false;
 global.inputControlPressed	= false;
 global.inputControlHeld		= false;
 global.inputControlReleased	= false;
+
+global.inputEnterPressed	= false;
+global.inputEnterHeld		= false;
+global.inputEnterReleased	= false;
 
 global.inputMouseLeftPressed	= false;
 global.inputMouseLeftHeld		= false;
